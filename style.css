@@ -1,0 +1,70 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.qod-author a {
+    color: #777;
+    
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  margin:0;
+  padding:0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+.qod-text {
+    color: #777;
+    font-size: 1.5em;
+}
+
+.qod-author {
+    color: #333;
+}
+
+.jumbotron {
+    padding: 1.5rem 2rem;
+}
+
+@media (min-width: 48em) {
+    
+    .jumbotron {
+        padding: 1rem 1rem;
+    }
+}
+.ldquo {
+    color:red;
+    font-size: 5em;
+}
