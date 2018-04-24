@@ -1,3 +1,12 @@
+   /**
+    *   
+    *   Author: Abdelkarim KHALLOUK
+    *   URI: https://github.com/abdelkarim-khallouk
+    *   Email: ab.khallouk@gmail.com
+    *
+     * */
+    
+
     var quote;
     var author;
       
